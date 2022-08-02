@@ -5,4 +5,6 @@ export interface Shader {
     name?: string;
     vertex?: string;
     fragment?: string;
+    tags?: string[];
+    dateCreated?: Date;
 }

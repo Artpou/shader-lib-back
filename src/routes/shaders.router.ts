@@ -45,6 +45,7 @@ shadersRouter.post("/", async (req: Request, res: Response) => {
             name: req.body.name,
             vertex: req.body.vertex,
             fragment: req.body.fragment,
+            tags: req.body.tags || [],
             date: new Date()
         } as Shader;
 
