@@ -14,10 +14,6 @@
   },
   "author": "Artpou",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Artpou/shader-lib-back/issues"
-  },
-  "homepage": "https://github.com/Artpou/shader-lib-back#readme",
   "dependencies": {
     "@types/node": "^16.11.26",
     "ts-node": "10.4.0",
@@ -25,11 +21,7 @@
     "@types/express": "^4.17.13",
     "express": "^4.17.3",
     "mongodb": "^4.8.1",
-    "mongoose": "^6.5.0",
-    "mysql": "^2.18.1",
-    "netlify-cli": "^10.1.0",
     "pg": "^8.4.0",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.4"
+    "reflect-metadata": "^0.1.13"
   }
 }
