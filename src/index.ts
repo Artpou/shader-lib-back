@@ -3,8 +3,7 @@ import { shadersRouter } from "./routes/shaders.router";
 import { connectToDatabase } from "./services/database.service"
 
 const app = express();
-const port = 8888;
-
+const port = process.env.PORT || 8888;
 
 connectToDatabase()
     .then(() => {
