@@ -1,7 +1,7 @@
 import express from "express";
 import { shadersRouter } from "./routes/shaders.router";
 import { connectToDatabase } from "./services/database.service"
-import cors from "cors";
+var cors = require('cors');
 
 const app = express();
 app.use(cors());
