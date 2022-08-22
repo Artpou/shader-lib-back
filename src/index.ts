@@ -1,8 +1,10 @@
 import express from "express";
 import { shadersRouter } from "./routes/shaders.router";
 import { connectToDatabase } from "./services/database.service"
+import cors from "cors";
 
 const app = express();
+app.use(cors());
 const port = process.env.PORT || 8888;
 
 connectToDatabase()
